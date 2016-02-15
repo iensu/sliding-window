@@ -1,6 +1,6 @@
 {
   "name": "sliding-window",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "Wraps sliding window functionality ontop of arrays",
   "main": "sliding-window.js",
   "scripts": {
@@ -11,5 +11,23 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iensu/sliding-window.git"
+  },
+  "keywords": [
+    "sliding",
+    "window",
+    "array",
+    "manipulation"
+  ],
+  "bugs": {
+    "url": "https://github.com/iensu/sliding-window/issues"
+  },
+  "homepage": "https://github.com/iensu/sliding-window#readme"
 }
