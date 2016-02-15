@@ -5,6 +5,16 @@ A NodeJS module providing a sliding window function for arrays.
 This can be useful when for instance implementing a image slideshow and you only want to
 load a say three images at a time.
 
+## Installation
+
+You can install this module using NPM
+
+```
+npm install --save window-slider
+```
+
+## Examples
+
 ```javascript
 const windowSlider = require('window-slider');
 
