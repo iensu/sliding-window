@@ -5,7 +5,7 @@ function slidingWindow(xs, options) {
 
   const api = {},
         windowSize = Math.abs(options.windowSize) || 3,
-        getWindow = windowGetter(Array.prototype.slice.call(xs),
+        getWindow = windowGetter([].slice.call(xs),
                                  windowSize);
 
   let currentIndex = Math.abs(options.startIndex) || 0;
@@ -25,6 +25,8 @@ function slidingWindow(xs, options) {
   api.reset = () => {
     currentIndex = Math.abs(options.startIndex) || 0;
   };
+
+  api.array = () => [].slice.call(xs);
 
   return api;
 }
