@@ -6,7 +6,7 @@ This can be useful when for instance implementing a image slideshow and you only
 load a say three images at a time.
 
 ```javascript
-const slidingWindow = require('slidingWindow');
+const windowSlider = require('window-slider');
 
 const window = slidingWindow([1, 2, 3, 4]);
 
@@ -30,7 +30,7 @@ console.log(window.left())     // [3, 4, 1]
 console.log(window.array())    // [1, 2, 3, 4, 5]
 
 // You can also specify the window size and start index
-const window2 = slidingWindow([1, 2, 3, 4], { startIndex: 1, windowSize: 2 });
+const window2 = windowSlider([1, 2, 3, 4], { startIndex: 1, windowSize: 2 });
 
 console.log(window2.current()) // [2, 3]
 ```
