@@ -18,7 +18,7 @@ npm install --save window-slider
 ```javascript
 const windowSlider = require('window-slider');
 
-const window = slidingWindow([1, 2, 3, 4]);
+const window = windowSlider([1, 2, 3, 4]);
 
 // Default window size is 3 items
 // and start index is 0
