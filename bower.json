@@ -1,0 +1,28 @@
+{
+  "name": "window-slider",
+  "version": "0.3.0",
+  "description": "Wraps sliding window functionality ontop of arrays",
+  "main": "window-slider.js",
+  "authors": [
+    "Jens Östlund (iensu)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "sliding",
+    "window",
+    "array",
+    "manipulation"
+  ],
+  "homepage": "https://github.com/iensu/window-slider",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
