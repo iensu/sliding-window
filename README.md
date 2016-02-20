@@ -7,13 +7,21 @@ load a say three images at a time.
 
 ## Installation
 
-You can install this module using NPM
+### NPM
 
 ```
 npm install --save window-slider
 ```
 
+### Bower
+
+```
+bower install --save window-slider
+```
+
 ## Examples
+
+### In NodeJS
 
 ```javascript
 const windowSlider = require('window-slider');
@@ -43,6 +51,21 @@ console.log(window.array())    // [1, 2, 3, 4, 5]
 const window2 = windowSlider([1, 2, 3, 4], { startIndex: 1, windowSize: 2 });
 
 console.log(window2.current()) // [2, 3]
+```
+
+### In the Browser
+
+```javascript
+// The module is exported as `WindowSlider` and works
+// as in the Node example above.
+
+var win = WindowSlider([1, 2, 3, 4]);
+
+console.log(win.current())     // [1, 2, 3]
+console.log(window.right())    // [2, 3, 4]
+console.log(window.right())    // [3, 4, 1]
+
+// etc...
 ```
 
 See tests for more elaborate examples.
