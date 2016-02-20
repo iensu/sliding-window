@@ -1,4 +1,4 @@
-# Sliding Window
+# Window Slider
 
 A NodeJS module providing a sliding window function for arrays.
 
