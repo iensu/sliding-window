@@ -18,7 +18,7 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iensu/sliding-window.git"
+    "url": "git+https://github.com/iensu/window-slider.git"
   },
   "keywords": [
     "sliding",
@@ -27,7 +27,7 @@
     "manipulation"
   ],
   "bugs": {
-    "url": "https://github.com/iensu/sliding-window/issues"
+    "url": "https://github.com/iensu/window-slider/issues"
   },
-  "homepage": "https://github.com/iensu/sliding-window#readme"
+  "homepage": "https://github.com/iensu/window-slider#readme"
 }
