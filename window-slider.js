@@ -1,6 +1,5 @@
-"use strict";
-
 (function () {
+  'use strict';
 
   function windowGetter(xs, windowSize) {
     return (startIdx) => {
