@@ -62,8 +62,8 @@ console.log(window2.current()) // [2, 3]
 var win = WindowSlider([1, 2, 3, 4]);
 
 console.log(win.current())     // [1, 2, 3]
-console.log(window.right())    // [2, 3, 4]
-console.log(window.right())    // [3, 4, 1]
+console.log(win.right())       // [2, 3, 4]
+console.log(win.right())       // [3, 4, 1]
 
 // etc...
 ```
